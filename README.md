@@ -1,7 +1,7 @@
 <img height="200" src="./image/weixin.png?raw=true">
 
 # React-Native-Wechat-Lib
-![Version](https://img.shields.io/badge/Version-V3.0.0-brightgreen)
+![Version](https://img.shields.io/badge/Version-V3.0.4-brightgreen)
 ![npm version](https://img.shields.io/badge/npm-v1.1.24-blue)
 ![Wechat SDK](https://img.shields.io/badge/WechatSDKAndroid-V6.8.20-brightgreen)
 ![Wechat SDK](https://img.shields.io/badge/WechatSDKIos-V2.0-brightgreen)
@@ -36,7 +36,7 @@
 
 目前最新代码版本为 3.0.x，但 NPM Last 版本暂时只到 1.1.26，因为 **3.0.x 暂时还处于开发阶段**，有小部分功能**未经过测试**。
 
-如果你需要使用 3.0.x 版本，请在 package.json 中加上版本号 react-native-wechat-lib@3.0.4，切换前请你清楚了解该版本的风险，该版本为开发版。
+如果你需要使用 3.0.x 版本，请在 package.json 中加上版本号 **react-native-wechat-lib@3.0.4**，切换前请你清楚了解该版本的风险，该版本为开发版。
 
 我会尽快推出 3.0.x 发行版。
 
@@ -62,6 +62,9 @@
 NPM 安装
 ```sh
 npm install react-native-wechat-lib --save
+# 3.0.x 使用3.0.4
+npm install react-native-wechat-lib@3.0.4 --save
+
 # 3.0.0 开始弃用
 react-native link react-native-wechat-lib
 ```
