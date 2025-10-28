@@ -8,12 +8,12 @@
 #import "WechatAuthSDK.h"
 
 
-@interface WechatLib () <WechatAuthAPIDelegate>
+@interface WeChat () <WechatAuthAPIDelegate>
 @property (nonatomic, strong) WechatAuthSDK *authSDK;
 @property (nonatomic, strong) RCTResponseSenderBlock scanCallback;
 @end
 
-@implementation WechatLib
+@implementation WeChat
 
 // Define error messages
 #define NOT_REGISTERED (@"registerApp required.")
