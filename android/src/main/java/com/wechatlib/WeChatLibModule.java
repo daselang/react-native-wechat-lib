@@ -1032,7 +1032,7 @@ public class WeChatLibModule extends ReactContextBaseJavaModule implements IWXAP
         }
         this.getReactApplicationContext()
                 .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit("WeChat_Resp", map);
+                .emit("WeChat_Req", map);
     }
 
     @Override
