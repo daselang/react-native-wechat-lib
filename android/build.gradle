@@ -63,7 +63,8 @@ dependencies {
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native"
-  api group: 'com.tencent.mm.opensdk', name: 'wechat-sdk-android', version: '6.8.20'
+  // api group: 'com.tencent.mm.opensdk', name: 'wechat-sdk-android', version: '6.8.20'
+  api 'com.tencent.mm.opensdk:wechat-sdk-android:6.8.34'
 }
 
 if (isNewArchitectureEnabled()) {
